@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.name }}
+  description: A simple Node.js application
+spec:
+  type: service
+  lifecycle: dev
+  owner: ${{ values.owner }}
