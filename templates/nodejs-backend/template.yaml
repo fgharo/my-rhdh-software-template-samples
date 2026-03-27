@@ -35,7 +35,7 @@ spec:
       action: publish:github
       input:
         allowedHosts: ['github.com']
-        repoUrl: github.com?owner=your-org&repo=${{ parameters.name }}
+        repoUrl: github.com?owner=fgharo&repo=${{ parameters.name }}
         defaultBranch: main
         sourcePath: ./source
 
